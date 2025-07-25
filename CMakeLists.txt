@@ -3,4 +3,5 @@ project(Stack_Queu C)
 
 set(CMAKE_C_STANDARD 23)
 
-add_executable(Stack_Queu main.c)
+add_executable(Stack_Queu main.c
+        queue.c)
