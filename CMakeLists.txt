@@ -4,4 +4,7 @@ project(Stack_Queu C)
 set(CMAKE_C_STANDARD 23)
 
 add_executable(Stack_Queu main.c
-        queue.c)
+        queue.c
+        demo.c
+        binary_tree.c
+        Exercise01.c)
